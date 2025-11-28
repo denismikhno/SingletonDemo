@@ -21,6 +21,6 @@ public class Person {
 
     @Override
     public String toString() {
-        return String.format("%s владеет такими домашними животными %s.", name, pets);
+        return String.format("%s владеет такими домашними животными: %s.", name, pets);
     }
 }
