@@ -11,9 +11,9 @@ public class PersonManager {
 
     public void start() {
         Person person1 = new Person("Иван");
-        System.out.println(person1.getName());
-        Cat cat = new Cat("Том");
-        Dog dog = new Dog("Рекс");
+        System.out.printf("Встречайте! Наш владелец питомцев - %s.\n", person1.getName());
+        Cat cat = new Cat("Том", "кот");
+        Dog dog = new Dog("Рекс", "собака");
         person1.getPets().add(cat);
         person1.getPets().add(dog);
         System.out.println(person1);
