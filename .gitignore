@@ -3,3 +3,8 @@
 *.iws
 *.iml
 *.ipr
+
+# Скомпилированные артефакты
+out/
+build/
+target/
